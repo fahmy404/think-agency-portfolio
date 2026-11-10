@@ -1,0 +1,93 @@
+[
+  {
+    "id": "01-2b",
+    "folder": "2b",
+    "name": "2B",
+    "logo": "assets/logos/card-2b.webp",
+    "logoMode": "dark"
+  },
+  {
+    "id": "02-andria-and-george",
+    "folder": "andria and george",
+    "name": "Andria & George",
+    "logo": "assets/logos/card-andria-and-george.webp",
+    "logoMode": "contain"
+  },
+  {
+    "id": "03-egyswiss",
+    "folder": "egyswiss",
+    "name": "EGY SWISS",
+    "logo": "assets/logos/card-egyswiss.webp",
+    "logoMode": "contain"
+  },
+  {
+    "id": "04-ephh",
+    "folder": "ephh",
+    "name": "EPHH",
+    "logo": "assets/logos/card-ephh.webp",
+    "logoMode": "contain"
+  },
+  {
+    "id": "05-hyma",
+    "folder": "hyma",
+    "name": "HYMA",
+    "logo": "assets/logos/card-hyma.webp",
+    "logoMode": "contain"
+  },
+  {
+    "id": "06-micc",
+    "folder": "micc",
+    "name": "MICC",
+    "logo": "assets/logos/card-micc.webp",
+    "logoMode": "dark"
+  },
+  {
+    "id": "07-orascom",
+    "folder": "Orascom",
+    "name": "ORASCOM",
+    "logo": "assets/logos/card-orascom.webp",
+    "logoMode": "contain"
+  },
+  {
+    "id": "08-orascom-gala-dinner",
+    "folder": "orascom gala dinner",
+    "name": "ORASCOM GALA DINNER",
+    "logo": "assets/logos/card-orascom-gala-dinner.webp",
+    "logoMode": "contain"
+  },
+  {
+    "id": "09-sge",
+    "folder": "sge",
+    "name": "SGE",
+    "logo": "assets/logos/card-sge.webp",
+    "logoMode": "contain"
+  },
+  {
+    "id": "10-tecnogroup",
+    "folder": "Tecnogroup",
+    "name": "TECNOGROUP",
+    "logo": "assets/logos/card-tecnogroup.webp",
+    "logoMode": "contain"
+  },
+  {
+    "id": "11-value",
+    "folder": "value",
+    "name": "VALUE",
+    "logo": "assets/logos/card-value.webp",
+    "logoMode": "contain"
+  },
+  {
+    "id": "12-optical-authority",
+    "folder": "الهيئة العربية للبصريات",
+    "name": "ARAB AUTHORITY FOR OPTICS",
+    "logo": "assets/logos/card-optical-authority.webp",
+    "logoMode": "contain"
+  },
+  {
+    "id": "13-industrial-organization",
+    "folder": "الهيئة العربية للتصنيع",
+    "name": "ARAB ORGANIZATION FOR INDUSTRIALIZATION",
+    "logo": "assets/logos/card-industrial-organization.webp",
+    "logoMode": "contain"
+  }
+]

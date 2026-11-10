@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#080908" />
+    <meta name="description" content="THINK AGENCY creates brand experiences, exhibition spaces, and live events. Explore our selected work." />
+    <title>THINK AGENCY — Experiences in every detail</title>
+    <link rel="icon" type="image/svg+xml" href="assets/brand-mark.svg" />
+    <link rel="preload" as="image" href="assets/think-agency-logo.webp" fetchpriority="high" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="site-config.js"></script>
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <div class="noise" aria-hidden="true"></div>
+    <header class="topbar">
+      <a class="brand" href="#top" aria-label="THINK AGENCY home">
+        <img src="assets/think-agency-logo.webp" alt="THINK AGENCY" width="2172" height="724" />
+      </a>
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="#work">Work</a>
+        <a href="#approach">Approach</a>
+        <a class="nav-contact" id="nav-contact" href="#contact">Contact <span aria-hidden="true">↗</span></a>
+      </nav>
+      <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false"><span></span><span></span></button>
+    </header>
+
+    <main id="top">
+      <section class="hero section-shell">
+        <div class="hero-copy reveal">
+          <p class="eyebrow"><span class="eyebrow-line"></span> Creative production · Egypt</p>
+          <h1>We make brands<br /><em>impossible to miss.</em></h1>
+          <p class="hero-subtitle">Spaces, events, and brand experiences shaped with intention — and built to be remembered.</p>
+          <a class="text-link" href="#work">Explore our work <span aria-hidden="true">↓</span></a>
+        </div>
+        <div class="hero-art" aria-hidden="true">
+          <div class="hero-orbit orbit-one"></div><div class="hero-orbit orbit-two"></div>
+          <div class="hero-disc"><span>THINK<br />BEYOND<br />THE FRAME</span></div>
+          <div class="hero-index">01 <i></i> 13</div>
+          <div class="hero-caption">Built around<br />the experience.</div>
+        </div>
+        <div class="hero-footer"><span>Selected work</span><span>2019 — 2026</span><span>Scroll to explore ↓</span></div>
+      </section>
+
+      <section class="intro section-shell" id="approach">
+        <p class="eyebrow reveal">A thought-through experience</p>
+        <div class="intro-grid reveal">
+          <h2>Ideas take shape<br />in the <em>real world.</em></h2>
+          <p>From the first sketch to the final detail, we bring brands to life through considered spaces and moments that invite people in.</p>
+        </div>
+        <div class="stat-row reveal" aria-label="Portfolio overview">
+          <div><strong id="company-count">13</strong><span>Client folders</span></div>
+          <div><strong id="image-count">—</strong><span>Images & renders</span></div>
+          <div><strong id="video-count">—</strong><span>Films</span></div>
+          <div class="stat-note">Every gallery stays<br />with its own client.</div>
+        </div>
+      </section>
+
+      <section class="work-section section-shell" id="work">
+        <div class="section-heading reveal">
+          <div><p class="eyebrow">Selected work</p><h2>Built for <em>impact.</em></h2></div>
+          <p>Choose a client to explore their images, renders, and films.</p>
+        </div>
+        <div class="company-grid" id="company-grid" aria-live="polite"></div>
+      </section>
+
+      <section class="closing section-shell reveal" id="contact">
+        <p class="eyebrow">THINK AGENCY</p>
+        <h2>Make the next<br /><em>one matter.</em></h2>
+        <p class="closing-copy">A considered space can change the way a brand is experienced.</p>
+        <a class="contact-link" id="contact-link" href="#work">Start a conversation <span aria-hidden="true">↗</span></a>
+      </section>
+    </main>
+
+    <footer class="footer section-shell">
+      <img src="assets/think-agency-logo.webp" alt="THINK AGENCY" width="2172" height="724" loading="lazy" />
+      <span>© <span id="year"></span> THINK AGENCY</span>
+      <a href="#top">Back to top ↑</a>
+    </footer>
+
+    <dialog class="gallery-dialog" id="gallery-dialog" aria-labelledby="gallery-title">
+      <div class="dialog-shell">
+        <div class="dialog-topline"><span class="dialog-brand">THINK / WORK</span><button class="icon-button" id="close-gallery" aria-label="Close gallery">×</button></div>
+        <div class="dialog-heading">
+          <div><p class="eyebrow" id="gallery-folder"></p><h2 id="gallery-title"></h2></div>
+          <p id="gallery-summary"></p>
+        </div>
+        <div class="filter-row" id="gallery-filters" role="group" aria-label="Filter gallery"></div>
+        <div class="gallery-content" id="gallery-content"></div>
+      </div>
+    </dialog>
+
+    <dialog class="viewer-dialog" id="viewer-dialog" aria-label="Media viewer">
+      <button class="icon-button viewer-close" id="close-viewer" aria-label="Close viewer">×</button>
+      <div id="viewer-content"></div>
+    </dialog>
+  </body>
+</html>
